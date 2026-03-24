@@ -46,6 +46,8 @@ public class TestFunc01 {
 		output();
 		
 	}
+	
+	// input()
 
 	private static void input() {
 		System.out.println("input");
@@ -62,7 +64,9 @@ public class TestFunc01 {
 		
 		sc.close();
 	}
-
+	
+	// process()
+	
 	private static void process() {
 		System.out.println("process");
 		//            0   1   2   3   4   5   6   7   8   9  10
@@ -73,6 +77,8 @@ public class TestFunc01 {
   	 	grade =  g [(int)avg/ 10];
 	}
 
+	// output()
+	
 	private static void output() {
 		System.out.println("output");
 		System.out.println("번호 이름 총점 평균 등급");
